@@ -49,7 +49,7 @@ function App() {
       <div className="containerBody">
         <h1 className="txt1">under construction</h1>
         <h2 className="txt2">Will be back on</h2>
-        <h2 className="txt2">31 Oct 2019</h2>
+        <h2 className="txt2">1 Nov 2019</h2>
       </div>
 
       <div className="listLogo">
