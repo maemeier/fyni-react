@@ -24,11 +24,14 @@ header {
 }
 
 .logo {
-  height: 300px;
-  width: 430px;
+  height: 400px;
+  width: 530px;
   align-self: center;
-  margin-top: 200px;
-  margin-left: 30%;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  display: block;
 }
 
 @media only screen and (max-width: 600px) {
@@ -60,8 +63,8 @@ header {
   div.listLogo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 40px;
-    margin-top: 40px;
+    margin-left: auto;
+    margin-top: auto;
   }
   ul.groupListName1 {
     margin: 0px;
@@ -110,6 +113,7 @@ header {
   }
 }
 
+/* web */
 .svg2 {
   position: absolute;
   bottom: 0;
@@ -132,10 +136,10 @@ h2 {
   font-weight: lighter;
 }
 
-.listLogo {
-  margin-left: 28%;
-  margin-top: 70px;
-  align-items: center;
+div.listLogo {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 .logo1:nth-child(3) {
   margin-left: 8px;
@@ -155,10 +159,7 @@ h2 {
 .listName:first-child {
   margin-left: 0px;
 }
-.groupListName1 {
-  align-items: center;
-  margin-left: 25%;
-}
+
 .listName:nth-child(2) {
   align-items: center;
   margin-left: 35px;

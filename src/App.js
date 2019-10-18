@@ -61,17 +61,6 @@ function App() {
         <img className="logo1" src={affinity} alt="logo" />
       </div>
 
-      <div className="groupListName">
-        <ul className="groupListName1">
-          <li className="listName">Html</li>
-          <li className="listName">Javascript</li>
-          <li className="listName">CSS3</li>
-          <li className="listName">React</li>
-          <li className="listName">MongoDb </li>
-          <li className="listName">Affinity</li>
-        </ul>
-      </div>
-
       <div className="footer">
         <div className="svgBlock">
           <svg
@@ -119,7 +108,7 @@ function App() {
               <strong>Email: </strong>info@fyni.de
             </div>
             <div>
-              <strong> Linkdel: </strong>maemeier
+              <strong> Linkedin: </strong>Kangsadan Palioudis
             </div>
             <div>
               {" "}
