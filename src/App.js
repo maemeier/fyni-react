@@ -49,7 +49,7 @@ function App() {
       <div className="containerBody">
         <h1 className="txt1">under construction</h1>
         <h2 className="txt2">Will be back on</h2>
-        <h2 className="txt2">1 Nov 2019</h2>
+        <h2 className="txt2">30 Nov 2019</h2>
       </div>
 
       <div className="listLogo">
@@ -108,7 +108,7 @@ function App() {
               <strong>Email: </strong>info@fyni.de
             </div>
             <div>
-              <strong> Linkedin: </strong>Kangsadan Palioudis
+              <strong> Linkdel: </strong>maemeier
             </div>
             <div>
               {" "}

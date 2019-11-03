@@ -34,6 +34,13 @@ header {
   display: block;
 }
 
+div.listLogo {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (max-width: 600px) {
   .logo {
     height: 180px;
@@ -63,12 +70,12 @@ header {
   div.listLogo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: auto;
-    margin-top: auto;
+    margin-right: auto;
+    vertical-align: middle;
+
+    align-self: center;
   }
-  ul.groupListName1 {
-    margin: 0px;
-  }
+
   li.listName {
     font-size: 10px;
   }
@@ -113,7 +120,6 @@ header {
   }
 }
 
-/* web */
 .svg2 {
   position: absolute;
   bottom: 0;
@@ -136,11 +142,6 @@ h2 {
   font-weight: lighter;
 }
 
-div.listLogo {
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
 .logo1:nth-child(3) {
   margin-left: 8px;
 }
@@ -159,7 +160,10 @@ div.listLogo {
 .listName:first-child {
   margin-left: 0px;
 }
-
+.groupListName1 {
+  align-items: center;
+  margin-left: 25%;
+}
 .listName:nth-child(2) {
   align-items: center;
   margin-left: 35px;
