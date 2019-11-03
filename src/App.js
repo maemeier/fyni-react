@@ -11,7 +11,7 @@ import "./landing.css";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <div className="header">
         <svg
           className="svg1"
