@@ -7,6 +7,7 @@ import jsLogo from "./img/jsLogo.png";
 import reactLogo from "./img/reactLogo.png";
 import html from "./img/htmlLogo.png";
 import fyni from "./img/fyniLogo.png";
+import Logo1 from "./img/LOGO.svg";
 import "./landing.css";
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
       </div>
 
       <div>
-        <img className="logo" src={fyni} alt="logo" />
+        <img className="logo" src={Logo1} alt="logo" />
       </div>
 
       <p className="goldfish"> DESIGN AND CODE</p>
