@@ -14,7 +14,7 @@ const Homepage = () => {
       <div className="ui secondary menu">
         <img className="Logo" src={Logo} alt="logo" />
         <a className="item right">Home</a>
-        <a className="item ">Projects</a>
+        <a className="item ">Coding</a>
         <a className="item left">Design</a>
       </div>
       <div className="header">
@@ -88,8 +88,8 @@ const Homepage = () => {
 
       <div className="allApp">
         <img className="appImage sky" src={Skyscanner} alt="logo" />
-        <img className="appImage air" src={Airbnb} alt="logo" />
-        <img className="appImage green" src={TeeShop} alt="logo" />
+        <img className="appImage sky" src={Airbnb} alt="logo" />
+        <img className="appImage sky" src={TeeShop} alt="logo" />
       </div>
       <div className="footer">
         <div className="svgBlock">

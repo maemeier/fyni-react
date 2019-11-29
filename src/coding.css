@@ -1,0 +1,189 @@
+.Logo {
+  width: 200px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+.item {
+  margin-right: 90px;
+}
+a.item.right {
+  margin-left: 10px;
+}
+.svg1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.svg2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.logo {
+  height: 400px;
+  width: 530px;
+  align-self: center;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  display: block;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.body2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0px;
+}
+
+.eatwithme {
+  width: 780px;
+  margin-left: 90px;
+}
+
+.eatHeader {
+  padding-top: 200px;
+}
+.eatText {
+  width: 350px;
+}
+.text {
+  width: 350px;
+  align-items: center;
+  margin: auto;
+}
+
+.buttonMiddle {
+  align-items: center;
+  margin: auto;
+}
+.mobileHeader {
+  text-align: center;
+  color: #b18e8d;
+  margin-top: 40px;
+}
+.mobileText {
+  text-align: center;
+  width: 750px;
+  align-items: center;
+  margin: auto;
+}
+.weather {
+  width: 300px;
+  margin-left: 200px;
+}
+.ipad {
+  width: 800px;
+}
+.allApp {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-right: 90px;
+  padding-left: 90px;
+  margin-top: 70px;
+}
+.appImage {
+  width: 350px;
+  padding: auto;
+  padding-top: 20px;
+  margin: auto;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.footer {
+  position: relative;
+  margin-top: 190px;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.contackBlock {
+  position: relative;
+  bottom: 70px;
+}
+.footerLink {
+  text-decoration: none;
+  color: white;
+}
+
+.contact {
+  text-decoration: underline;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-weight: bold;
+  color: white;
+}
+
+.info {
+  margin-top: 50px;
+  margin-bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+.info2 {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+.thaiAir {
+  animation: fadeInUp ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.sky {
+  animation: fadeInRight ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
