@@ -5,7 +5,7 @@ import Eatwithme from "./img/eatwithme.png";
 import ThaiAir from "./img/thaiAir.png";
 import Roomers from "./img/roomers.png";
 import Chatzii from "./img/chatzii.png";
-import Weather from "./img/weather.png";
+import Iphone from "./img/iphone.png";
 import Ipad from "./img/ipad.png";
 import GreenTea from "./img/green-tea.png";
 import "./coding.css";
@@ -63,24 +63,31 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="body2">
-        <div>
-          <img className="weather" src={Weather} alt="logo" />
-          <p className="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud
-          </p>
-          <button className="buttonMiddle">LETZ CHECK</button>
+      <div className="wrapper">
+        <div className="body2">
+          <div className="iphoneLeft">
+            <img className="weather" src={Iphone} alt="logo" />
+            <h2 className="weatherHeader">WEATHER</h2>
+            <p className="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud abore et dolore magna aliqua.
+            </p>
+            <button className="weatherButton">LETZ CHECK</button>
+          </div>
         </div>
-        <div>
-          <img className="ipad" src={Ipad} alt="logo" />
-          <p className="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud
-          </p>
-          <button className="buttonMiddle">LETZ CHECK</button>
+
+        <div className="body2">
+          <div className="iphoneLeft">
+            <img className="ipad" src={Ipad} alt="logo" />
+            <h2 className="weatherHeader">JUST-IN-CASE</h2>
+            <p className="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud abore et dolore magna aliqua.
+            </p>
+            <button className="weatherButton">LETZ CHECK</button>
+          </div>
         </div>
       </div>
 
