@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "./img/LOGO.svg";
-import Logo1 from "./img/LOGO.svg";
-import Iphone from "./img/iphone.png";
+import NavBar from "./components/navBar";
+import Iphone from "./img/iphoneRoll.png";
 import ThaiAir from "./img/thaiAir.png";
 import Skyscanner from "./img/skyscanner.png";
 import Airbnb from "./img/airbnb.png";
@@ -11,12 +11,7 @@ import "./design.css";
 const Homepage = () => {
   return (
     <div className="container">
-      <div className="ui secondary menu">
-        <img className="Logo" src={Logo} alt="logo" />
-        <a className="item right">Home</a>
-        <a className="item ">Coding</a>
-        <a className="item left">Design</a>
-      </div>
+      <NavBar />
       <div className="header">
         <svg
           className="svg1"

@@ -142,7 +142,7 @@ a.item.right {
 
 .floating {
   animation-name: floating;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   margin-left: 10px;
@@ -162,7 +162,7 @@ a.item.right {
 }
 
 .thaiAir {
-  animation: fadeInUp ease 5s;
+  animation: fadeInUp ease 7s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -176,7 +176,7 @@ a.item.right {
 }
 
 .sky {
-  animation: fadeInRight ease 2s;
+  animation: fadeInRight ease 10s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
