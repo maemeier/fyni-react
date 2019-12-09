@@ -1,0 +1,88 @@
+.svg1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.goldfish {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-weight: bold;
+  left: 50%;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  -webkit-text-decoration: slateblue solid 3px underline;
+  text-decoration: slateblue solid underline;
+}
+
+.logo {
+  height: 400px;
+  width: 530px;
+  align-self: center;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  display: block;
+}
+
+div.listLogo {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-center {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .content-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content p {
+    width: 100%;
+  }
+}
+img.logo1 {
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.groupListName {
+  display: none;
+}
+.fullstackLogo {
+  margin-left: 150px;
+  width: 200px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.designLogo {
+  margin-left: 40px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.projects {
+  text-align: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-top: 50px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}

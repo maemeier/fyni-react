@@ -11,16 +11,13 @@ import fyni from "../img/fyniLogo.png";
 import fullstackLogo from "../img/fullstack.png";
 import designLogo2 from "../img/designLogo2.png";
 import Logo1 from "../img/LOGO.svg";
-import "../landing.css";
+import Navbar1 from "./Navbar1";
+import "../homepage.css";
 
 const Homepage = () => {
   return (
     <div className="container">
-      <div class="ui secondary   menu">
-        <a> Home </a>
-        <a> Coding </a>
-        <a> Design </a>
-      </div>
+      <Navbar1 />
       <div className="header">
         <svg
           className="svg1"
@@ -64,7 +61,7 @@ const Homepage = () => {
         <img className="logo1" src={affinity} alt="logo" />
       </div>
 
-      <div class="textBlock">
+      <div class="content-center">
         <p class="firstBlock">
           <strong>
             Hello World! Welcome to FYNI.DEV, My name is Mae, Junior Front-end
@@ -97,7 +94,7 @@ const Homepage = () => {
         <span>PROJECTS </span>
       </p>
 
-      <div class="allProjects">
+      <div class="content-center">
         <div>
           <img class="fullstackLogo" src={fullstackLogo} alt="logo" />
         </div>
@@ -133,41 +130,42 @@ const Homepage = () => {
             />
           </svg>
         </div>
-
-        <div className="contackBlock">
-          <p className="contact"> CONTACT</p>
-          <div className="info">
-            <div>
-              {" "}
-              <strong>Mae</strong> Kangsadan
-            </div>
-            <div>
-              {" "}
-              <a className="footerLink" href="https://www.github/maemeier">
+        <div className="content-center">
+          <div className="contackBlock">
+            <p className="contact"> CONTACT</p>
+            <div className="info">
+              <div>
                 {" "}
-                <strong>Github:</strong> maemeier
-              </a>
+                <strong>Mae</strong> Kangsadan
+              </div>
+              <div>
+                {" "}
+                <a className="footerLink" href="https://www.github/maemeier">
+                  {" "}
+                  <strong>Github:</strong> maemeier
+                </a>
+              </div>
+              <div>
+                {" "}
+                <a
+                  className="footerLink"
+                  href="https://www.pinterest.com/fynista/"
+                >
+                  <strong>Pinterest:</strong> fynista
+                </a>
+              </div>
             </div>
-            <div>
-              {" "}
-              <a
-                className="footerLink"
-                href="https://www.pinterest.com/fynista/"
-              >
-                <strong>Pinterest:</strong> fynista
-              </a>
-            </div>
-          </div>
-          <div className="info2">
-            <div>
-              <strong>Email: </strong>info@fyni.de
-            </div>
-            <div>
-              <strong> Linkdel: </strong>maemeier
-            </div>
-            <div>
-              {" "}
-              <strong>Instagram: </strong>fynista
+            <div className="info2">
+              <div>
+                <strong>Email: </strong>info@fyni.de
+              </div>
+              <div>
+                <strong> Linkdel: </strong>maemeier
+              </div>
+              <div>
+                {" "}
+                <strong>Instagram: </strong>fynista
+              </div>
             </div>
           </div>
         </div>

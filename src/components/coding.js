@@ -7,17 +7,14 @@ import Roomers from "../img/roomers.png";
 import Chatzii from "../img/chatzii.png";
 import Iphone from "../img/iphone.png";
 import Ipad from "../img/ipad.png";
-import "./coding.css";
+import "../coding.css";
+
+import Navbar1 from "./Navbar1";
 
 const Homepage = () => {
   return (
     <div className="container">
-      <div className="ui secondary menu">
-        <img className="Logo" src={Logo} alt="logo" />
-        <a className="item right">Home</a>
-        <a className="item ">Coding</a>
-        <a className="item left">Design</a>
-      </div>
+      <Navbar1 />
       <div className="header">
         <svg
           className="svg1"

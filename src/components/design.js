@@ -1,17 +1,18 @@
 import React from "react";
-import Logo from "./img/LOGO.svg";
-import NavBar from "./components/navBar";
-import Iphone from "./img/iphoneRoll.png";
-import ThaiAir from "./img/thaiAir.png";
-import Skyscanner from "./img/skyscanner.png";
-import Airbnb from "./img/airbnb.png";
-import TeeShop from "./img/teeShop.png";
-import "./design.css";
+import Logo from "../img/LOGO.svg";
+import NavBar from "../components/navBar";
+import Iphone from "../img/iphoneRoll.png";
+import ThaiAir from "../img/thaiAir.png";
+import Skyscanner from "../img/skyscanner.png";
+import Airbnb from "../img/airbnb.png";
+import TeeShop from "../img/teeShop.png";
+import "../design.css";
+import NavBar1 from "./Navbar1";
 
-const Homepage = () => {
+const Design = () => {
   return (
     <div className="container">
-      <NavBar />
+      <NavBar1 />
       <div className="header">
         <svg
           className="svg1"
@@ -146,4 +147,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Design;
