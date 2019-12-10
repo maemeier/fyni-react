@@ -18,7 +18,7 @@ const Homepage = () => {
   return (
     <div className="container">
       <Navbar1 />
-      <div className="header">
+      <div className="content-center">
         <svg
           className="svg1"
           width="1439"
@@ -49,8 +49,10 @@ const Homepage = () => {
         <img className="logo" src={Logo1} alt="logo" />
       </div>
 
-      <p className="goldfish"> DESIGN AND CODE</p>
-      <div className="underLineText"></div>
+      <div className="banner">
+        <h1 className="banner"> DESIGN AND CODE</h1>
+        <div className="banner"></div>
+      </div>
 
       <div className="listLogo">
         <img className="logo1" src={html} alt="logo" />
@@ -61,15 +63,15 @@ const Homepage = () => {
         <img className="logo1" src={affinity} alt="logo" />
       </div>
 
-      <div class="content-center">
-        <p class="firstBlock">
+      <div className="content-center">
+        <p className="firstBlock">
           <strong>
             Hello World! Welcome to FYNI.DEV, My name is Mae, Junior Front-end
-            Developer --
+            Developer and Graphic Designer --
           </strong>
         </p>
 
-        <p>
+        <p className="firstBlock">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -78,7 +80,7 @@ const Homepage = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <p>
+        <p className="firstBlock">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -89,20 +91,20 @@ const Homepage = () => {
         </p>
       </div>
 
-      <p class="projects">
-        {" "}
-        <span>PROJECTS </span>
-      </p>
+      <div className="banner">
+        <h1 className="banner"> Projects</h1>
+        <div className="banner"></div>
+      </div>
 
-      <div class="content-center">
+      <div className="content-center">
         <div>
-          <img class="fullstackLogo" src={fullstackLogo} alt="logo" />
+          <img className="fullstackLogo" src={fullstackLogo} alt="logo" />
         </div>
         <div>
-          <img class="designLogo" src={designLogo2} alt="logo" />
+          <img className="designLogo" src={designLogo2} alt="logo" />
         </div>
         <div>
-          <p class="projectText">
+          <p className="firstBlock">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

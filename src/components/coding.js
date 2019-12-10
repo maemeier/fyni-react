@@ -15,7 +15,7 @@ const Homepage = () => {
   return (
     <div className="container">
       <Navbar1 />
-      <div className="header">
+      <div className="content-center ">
         <svg
           className="svg1"
           width="1439"
@@ -59,7 +59,7 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="wrapper">
+      <div className="content-center">
         <div className="body2">
           <div className="iphoneLeft">
             <img className="weather" src={Iphone} alt="logo" />
@@ -87,7 +87,7 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="allApp">
+      <div className="content-center">
         <img className="appImage sky" src={Roomers} alt="logo" />
         <img className="appImage sky" src={Chatzii} alt="logo" />
         <img className="appImage sky" src={Roomers} alt="logo" />
@@ -109,41 +109,42 @@ const Homepage = () => {
             />
           </svg>
         </div>
-
-        <div className="contackBlock">
-          <p className="contact"> CONTACT</p>
-          <div className="info">
-            <div>
-              {" "}
-              <strong>Mae</strong> Kangsadan
-            </div>
-            <div>
-              {" "}
-              <a className="footerLink" href="https://www.github/maemeier">
+        <div className="content-center">
+          <div className="contackBlock">
+            <p className="contact"> CONTACT</p>
+            <div className="info">
+              <div>
                 {" "}
-                <strong>Github:</strong> maemeier
-              </a>
+                <strong>Mae</strong> Kangsadan
+              </div>
+              <div>
+                {" "}
+                <a className="footerLink" href="https://www.github/maemeier">
+                  {" "}
+                  <strong>Github:</strong> maemeier
+                </a>
+              </div>
+              <div>
+                {" "}
+                <a
+                  className="footerLink"
+                  href="https://www.pinterest.com/fynista/"
+                >
+                  <strong>Pinterest:</strong> fynista
+                </a>
+              </div>
             </div>
-            <div>
-              {" "}
-              <a
-                className="footerLink"
-                href="https://www.pinterest.com/fynista/"
-              >
-                <strong>Pinterest:</strong> fynista
-              </a>
-            </div>
-          </div>
-          <div className="info2">
-            <div>
-              <strong>Email: </strong>info@fyni.de
-            </div>
-            <div>
-              <strong> Linkdel: </strong>maemeier
-            </div>
-            <div>
-              {" "}
-              <strong>Instagram: </strong>fynista
+            <div className="info2">
+              <div>
+                <strong>Email: </strong>info@fyni.de
+              </div>
+              <div>
+                <strong> Linkdel: </strong>maemeier
+              </div>
+              <div>
+                {" "}
+                <strong>Instagram: </strong>fynista
+              </div>
             </div>
           </div>
         </div>

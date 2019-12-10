@@ -13,7 +13,7 @@ const Design = () => {
   return (
     <div className="container">
       <NavBar1 />
-      <div className="header">
+      <div className="content-center">
         <svg
           className="svg1"
           width="1439"
@@ -39,36 +39,38 @@ const Design = () => {
           </defs>
         </svg>
       </div>
-
-      <div className="body">
-        <img className="iphone floating" src={Iphone} alt="logo" />
-        <div>
-          <h1 className="iphoneHeader">
-            Design won't save the world, but it makes your apps look good
-          </h1>
-          <p className="iphoneText">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+      <div className="content-center">
+        <div className="content-center">
+          <img className="iphone floating" src={Iphone} alt="logo" />
+          <div>
+            <h1 className="iphoneHeader">
+              Design won't save the world, but it makes your apps look good
+            </h1>
+            <p className="iphoneText">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
         </div>
       </div>
-
-      <div className="body2">
-        <div>
-          <h1 className="thaiAirHeader">REDESIGN THAI AIRWAY</h1>
-          <p className="thaiAirText">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-          </p>
+      <div className="content-center">
+        <div className="content-center">
+          <div>
+            <h1 className="thaiAirHeader">REDESIGN THAI AIRWAY</h1>
+            <p className="thaiAirText">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </p>
+          </div>
         </div>
         <img className="thaiAir" src={ThaiAir} alt="logo" />
       </div>
@@ -82,7 +84,7 @@ const Design = () => {
         velit esse cillum dolore eu fugiat nulla pariatur.
       </p>
 
-      <div className="allApp">
+      <div className="content-center">
         <img className="appImage sky" src={Skyscanner} alt="logo" />
         <img className="appImage sky" src={Airbnb} alt="logo" />
         <img className="appImage sky" src={TeeShop} alt="logo" />
@@ -104,41 +106,42 @@ const Design = () => {
             />
           </svg>
         </div>
-
-        <div className="contackBlock">
-          <p className="contact"> CONTACT</p>
-          <div className="info">
-            <div>
-              {" "}
-              <strong>Mae</strong> Kangsadan
-            </div>
-            <div>
-              {" "}
-              <a className="footerLink" href="https://www.github/maemeier">
+        <div className="content-center">
+          <div className="contackBlock">
+            <p className="contact"> CONTACT</p>
+            <div className="info">
+              <div>
                 {" "}
-                <strong>Github:</strong> maemeier
-              </a>
+                <strong>Mae</strong> Kangsadan
+              </div>
+              <div>
+                {" "}
+                <a className="footerLink" href="https://www.github/maemeier">
+                  {" "}
+                  <strong>Github:</strong> maemeier
+                </a>
+              </div>
+              <div>
+                {" "}
+                <a
+                  className="footerLink"
+                  href="https://www.pinterest.com/fynista/"
+                >
+                  <strong>Pinterest:</strong> fynista
+                </a>
+              </div>
             </div>
-            <div>
-              {" "}
-              <a
-                className="footerLink"
-                href="https://www.pinterest.com/fynista/"
-              >
-                <strong>Pinterest:</strong> fynista
-              </a>
-            </div>
-          </div>
-          <div className="info2">
-            <div>
-              <strong>Email: </strong>info@fyni.de
-            </div>
-            <div>
-              <strong> Linkdel: </strong>maemeier
-            </div>
-            <div>
-              {" "}
-              <strong>Instagram: </strong>fynista
+            <div className="info2">
+              <div>
+                <strong>Email: </strong>info@fyni.de
+              </div>
+              <div>
+                <strong> Linkdel: </strong>maemeier
+              </div>
+              <div>
+                {" "}
+                <strong>Instagram: </strong>fynista
+              </div>
             </div>
           </div>
         </div>
