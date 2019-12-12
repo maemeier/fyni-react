@@ -30,10 +30,10 @@ class NavBar1 extends Component {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/coding">Coding</Link>
+              <Link to="/notFound">Coding</Link>
             </li>
             <li>
-              <Link to="/design">Design</Link>
+              <Link to="/notFound">Design</Link>
             </li>
           </ul>
         </div>

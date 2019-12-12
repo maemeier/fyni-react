@@ -11,12 +11,13 @@ import fyni from "../img/fyniLogo.png";
 import fullstackLogo from "../img/fullstack.png";
 import designLogo2 from "../img/designLogo2.png";
 import Logo1 from "../img/LOGO.svg";
-
+import Navbar1 from "./Navbar1";
 import "../homepage.css";
 
 const Homepage = () => {
   return (
     <div className="container">
+      <Navbar1 />
       <div className="content-center">
         <svg
           className="svg1"
