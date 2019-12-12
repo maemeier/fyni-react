@@ -42,35 +42,36 @@ const Homepage = () => {
         </svg>
       </div>
 
-      <div className="body">
+      <div className="content-center">
         <img className="eatwithme " src={Eatwithme} alt="logo" />
+
         <div>
-          <h1 className="eatHeader">EATWITHME</h1>
-          <p className="eatText">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <button>LETZ CHECK</button>
+          <div>
+            <h1 className="eatHeader">EATWITHME</h1>
+            <p className="eatText">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <button>LETZ CHECK</button>
+          </div>
         </div>
       </div>
 
       <div className="content-center">
-        <div className="body2">
-          <div className="iphoneLeft">
-            <img className="weather" src={Iphone} alt="logo" />
-            <h2 className="weatherHeader">WEATHER</h2>
-            <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud abore et dolore magna aliqua.
-            </p>
-            <button className="weatherButton">LETZ CHECK</button>
-          </div>
+        <div className="iphoneLeft">
+          <img className="weather" src={Iphone} alt="logo" />
+          <h2 className="weatherHeader">WEATHER</h2>
+          <p className="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud abore et dolore magna aliqua.
+          </p>
+          <button className="weatherButton">LETZ CHECK</button>
         </div>
 
         <div className="body2">

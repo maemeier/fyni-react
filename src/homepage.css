@@ -75,13 +75,14 @@ h2 {
   text-decoration: slateblue solid underline;
 }
 
-.logo {
-  height: 400px;
-  width: 530px;
+img.logo {
+  height: 300px;
+  width: 250;
   align-self: center;
+
+  width: 90vw;
+  margin: 0 auto;
   margin-top: 120px;
-  margin-left: auto;
-  margin-right: auto;
   vertical-align: middle;
   display: block;
 }
@@ -89,10 +90,9 @@ h2 {
 div.listLogo {
   display: flex;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 .content-center {
   width: 90vw;
@@ -118,6 +118,7 @@ div.listLogo {
 }
 img.logo1 {
   width: 60px;
+  height: 60px;
   margin-left: 10px;
   margin-top: 20px;
 }
@@ -127,7 +128,7 @@ img.logo1 {
 }
 .fullstackLogo {
   margin: auto;
-  width: 70%;
+  width: 100%;
   display: flex;
 
   position: relative;
@@ -138,7 +139,7 @@ img.logo1 {
   display: flex;
   margin: auto;
   align-items: center;
-  width: 70%;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -154,4 +155,122 @@ img.logo1 {
 }
 .firstBlock {
   text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    height: 180px;
+    width: 250px;
+    align-self: center;
+    margin-top: 25px;
+  }
+  .txt1 {
+    font-size: 22px;
+    margin: 20px;
+  }
+  .txt2 {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .svg1 {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+  .svg2 {
+    width: 100%;
+    height: auto;
+  }
+  .listLogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    align-items: center;
+  }
+
+  li.listName {
+    font-size: 10px;
+  }
+
+  img.logo1 {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .groupListName {
+    display: none;
+  }
+  div.footer {
+    position: relative;
+    margin-top: 100px;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  div.contackBlock {
+    position: relative;
+    bottom: 10px;
+  }
+  .svgBlock {
+    bottom: auto;
+  }
+
+  .contackBlock {
+    top: auto;
+  }
+  .contact {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  div.info {
+    font-size: 10px;
+    bottom: 10;
+  }
+  div.info2 {
+    display: none;
+  }
+}
+
+.logos {
+  animation: fadeInUp ease 7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.skyLeft {
+  animation: fadeInLeft ease 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.skyRight {
+  animation: fadeInRight ease 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

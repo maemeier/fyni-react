@@ -5,7 +5,7 @@
   left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
-  background: var(--offWhite);
+
   z-index: 1;
 }
 .nav-header {
@@ -25,7 +25,7 @@
 .nav-links {
   height: 0;
   overflow: hidden;
-  transition: var(--mainTransition);
+  transition: var(--offWhite);
   list-style-type: none;
 }
 .nav-links a {
@@ -40,7 +40,7 @@
   letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
-  color: var(--primaryColor);
+  color: var(--offWhite);
 }
 
 .show-nav {
