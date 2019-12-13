@@ -7,12 +7,24 @@
   grid-column-gap: 50px;
   padding-top: 50px;
 }
-.screenImg {
-  width: 1100px;
-  margin: auto;
-  margin-top: 150px;
+
+.comingSoon {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: auto;
+  text-align: left;
 }
 
+img.ipad {
+  width: 600px;
+  margin: auto;
+}
+
+img.iphone {
+  width: 300px;
+  height: 400px;
+  margin: auto;
+}
 @media screen and (min-width: 992px) {
   .content-center {
     width: 95vw;
@@ -72,10 +84,13 @@ a.item.right {
 }
 
 .eatwithme {
-  width: 780px;
-  margin-left: 90px;
+  width: 650px;
+  margin: 0;
 }
-
+p.eatwithmeText {
+  margin-top: 200px;
+  text-align: center;
+}
 .eatHeader {
   padding-top: 180px;
 }
@@ -109,6 +124,9 @@ button {
   background-image: linear-gradient(to bottom, #393939, #8d6c8e);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#393939, endColorstr=#8D6C8E);
 }
+a.linkUrl {
+  color: white;
+}
 
 .text {
   width: 350px;
@@ -124,6 +142,7 @@ button {
   display: grid;
   grid-template-rows: 1fr;
 }
+
 .weatherButton {
   width: 100px;
   margin: auto;
@@ -146,11 +165,11 @@ button {
 .weatherHeader {
   justify-content: center;
   margin: auto;
+
+  font-weight: bold;
   font-size: 20px;
 }
-.ipad {
-  width: 800px;
-}
+
 .allApp {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

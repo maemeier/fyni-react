@@ -5,10 +5,13 @@ import Eatwithme from "../img/eatwithme.png";
 import ThaiAir from "../img/thaiAir.png";
 import Roomers from "../img/roomers.png";
 import Chatzii from "../img/chatzii.png";
-import Iphone from "../img/iphonex.png";
-import Ipad from "../img/ipad.png";
+import Iphone from "../img/iphone.png";
+import Ipad2 from "../img/ipad2.png";
+import Ipad1 from "../img/ipad1.png";
 import Footer from "./footer";
 import Screen from "../img/screen.png";
+import Case from "../img/case.png";
+import { Link } from "react-router-dom";
 import "../coding.css";
 
 import Navbar1 from "./Navbar1";
@@ -44,34 +47,80 @@ const Homepage = () => {
         </svg>
       </div>
 
-      <div className="body">
-        <div className="content-center">
-          <div className="iphoneLeft">
-            <img className="ipad" src={Iphone} alt="logo" />
-            <h2 className="weatherHeader">WEATHER</h2>
-            <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud abore et dolore magna aliqua.
-            </p>
-            <button className="weatherButton">LETZ CHECK</button>
-          </div>
-
-          <div className="iphoneLeft">
-            <img className="ipad" src={Ipad} alt="logo" />
-            <h2 className="weatherHeader">JARDIN DE L'AMOUR</h2>
-            <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud abore et dolore magna aliqua.
-            </p>
-            <button className="weatherButton">LETZ CHECK</button>
-          </div>
+      <div className="content-center">
+        <div>
+          <img className="eatwithme" src={Eatwithme} alt="logo" />
+        </div>
+        <div>
+          <p className="eatwithmeText">
+            Eatwithme -- Discover the unique social media dining website that
+            set up you to with with strangers. Create your events and join
+            breakfast or dinner with local people. Because eating together is
+            always more delicious than eating alone!
+          </p>
+          <ul>
+            <li>Sign up and Login Authentication</li>
+            <li>Create events and upload image to the event</li>
+            <li>Check proflie and booked events</li>
+            <li>Booking events</li>
+            <li>Check list and details's Restaurants</li>
+          </ul>
+          <button className="weatherButton">
+            <a
+              className="linkUrl"
+              target="_blank"
+              href="https://eatwithme-react.herokuapp.com"
+            >
+              LETZ CHECK
+            </a>
+          </button>
         </div>
       </div>
 
       <div className="content-center">
-        <img className="appImage sky" src={Roomers} alt="logo" />
+        <div className="iphoneLeft">
+          <img className="ipad" src={Ipad1} alt="logo" />
+          <h2 className="weatherHeader">JARDIN DE L'AMOUR</h2>
+          <p className="text">
+            Online Webshop for preorder wedding bouquets. Jarding de l'amour
+            also offers signature packages for wedding. Built with react, all
+            data stored in localhost. Responsive for desktop, mobile phone and
+            tablette.
+          </p>
+          <button className="weatherButton">
+            {" "}
+            <a
+              className="linkUrl"
+              target="_blank"
+              href="https://jardin-fyni.netlify.com/"
+            >
+              LETZ CHECK
+            </a>
+          </button>
+        </div>
+
+        <div className="iphoneLeft">
+          <img className="ipad" src={Ipad2} alt="logo" />
+          <h2 className="weatherHeader">DICTIONARY</h2>
+          <p className="text">
+            Dictionary is a single web page for storing color vocabulary. This
+            project was coding test for intership program. The vocabulary can be
+            added, edited and deleted (if you want). -- Built with react.
+          </p>
+          <button className="weatherButton">
+            <a
+              className="linkUrl"
+              target="_blank"
+              href="https://dictionary-fyni.netlify.com/"
+            >
+              LETZ CHECK
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <div className="content-center">
+        <img className="appImage sky" src={Case} alt="logo" />
         <img className="appImage sky" src={Chatzii} alt="logo" />
         <img className="appImage sky" src={Roomers} alt="logo" />
       </div>
