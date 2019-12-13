@@ -67,7 +67,7 @@ const Homepage = () => {
         <h2 className="construction">
           <strong>UNDERCONSTRACTION </strong>
           <br />
-          <strong> WILL BE BACK 19th Dec</strong>
+          <strong> WILL BE BACK ON 19th DEC</strong>
         </h2>
       </div>
 

@@ -7,6 +7,11 @@
   grid-column-gap: 50px;
   padding-top: 50px;
 }
+.screenImg {
+  width: 1100px;
+  margin: auto;
+  margin-top: 150px;
+}
 
 @media screen and (min-width: 992px) {
   .content-center {
@@ -64,11 +69,6 @@ a.item.right {
   grid-template-columns: 1fr 1fr;
   margin-left: 250px;
   margin-right: 250px;
-}
-.body2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 0px;
 }
 
 .eatwithme {

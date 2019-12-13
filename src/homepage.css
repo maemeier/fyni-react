@@ -156,7 +156,9 @@ img.logo1 {
 .firstBlock {
   text-align: justify;
 }
-
+.construction {
+  padding-bottom: 70px;
+}
 @media only screen and (max-width: 600px) {
   .logo {
     height: 180px;
