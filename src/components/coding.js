@@ -47,18 +47,27 @@ const Homepage = () => {
         </svg>
       </div>
 
+      <div>
+        <img className="logo" src={Logo1} alt="logo" />
+      </div>
+
+      <div className="banner">
+        <h1 className="banner">Projects - Coding</h1>
+        <div className="banner"></div>
+      </div>
+
       <div className="content-center">
         <div>
           <a href="https://eatwithme-react.herokuapp.com">
             <img className="eatwithme" src={Eatwithme} alt="logo" />
           </a>
         </div>
-        <div>
-          <p className="eatwithmeText">
-            Eatwithme -- Discover the unique social media dining website that
-            set up you to with with strangers. Create your events and join
-            breakfast or dinner with local people. Because eating together is
-            always more delicious than eating alone!
+        <div className="eatwithmeText">
+          <p>
+            <strong>Eatwithme </strong>-- Discover the unique social media
+            dining website that set up you to eat with strangers. Create your
+            events and join breakfast or dinner with local people. Because
+            eating together is always more delicious than eating alone!
           </p>
           <ul>
             <li>Sign up and Login Authentication</li>
@@ -72,7 +81,13 @@ const Homepage = () => {
 
       <div className="content-center">
         <div className="iphoneLeft">
-          <img className="ipad" src={Ipad1} alt="logo" />
+          <a
+            className="linkUrl"
+            target="_blank"
+            href="https://jardin-fyni.netlify.com/"
+          >
+            <img className="ipad" src={Ipad1} alt="logo" />
+          </a>
           <h2 className="weatherHeader">JARDIN DE L'AMOUR</h2>
           <p className="text">
             Online Webshop for preorder wedding bouquets. Jarding de l'amour
@@ -80,42 +95,40 @@ const Homepage = () => {
             data stored in localhost. Responsive for desktop, mobile phone and
             tablette.
           </p>
-          <button className="weatherButton">
-            {" "}
-            <a
-              className="linkUrl"
-              target="_blank"
-              href="https://jardin-fyni.netlify.com/"
-            >
-              LETZ CHECK
-            </a>
-          </button>
         </div>
 
         <div className="iphoneLeft">
-          <img className="ipad" src={Ipad2} alt="logo" />
+          <a
+            className="linkUrl"
+            target="_blank"
+            href="https://dictionary-fyni.netlify.com/"
+          >
+            <img className="ipad" src={Ipad2} alt="logo" />
+          </a>
           <h2 className="weatherHeader">DICTIONARY</h2>
           <p className="text">
             Dictionary is a single web page for storing color vocabulary. This
             project was coding test for intership program. The vocabulary can be
             added, edited and deleted (if you want). -- Built with react.
           </p>
-          <button className="weatherButton">
-            <a
-              className="linkUrl"
-              target="_blank"
-              href="https://dictionary-fyni.netlify.com/"
-            >
-              LETZ CHECK
-            </a>
-          </button>
         </div>
       </div>
 
+      <div className="grap"></div>
+
       <div className="content-center">
-        <img className="appImage sky" src={Case} alt="logo" />
-        <img className="appImage sky" src={Chatzii} alt="logo" />
-        <img className="appImage sky" src={Roomers} alt="logo" />
+        <div>
+          Avaliable on 29th Dec 2019
+          <img className="appImage sky" src={Case} alt="logo" />
+        </div>
+        <div>
+          Avaliable on 29th Dec 2019
+          <img className="appImage sky" src={Chatzii} alt="logo" />
+        </div>
+        <div>
+          Avaliable on 5th Jan 2020
+          <img className="appImage sky" src={Roomers} alt="logo" />
+        </div>
       </div>
 
       <Footer />
