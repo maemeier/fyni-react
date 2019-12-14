@@ -97,14 +97,18 @@ const Homepage = () => {
 
       <div className="content-center">
         <div>
-          <img
-            className="fullstackLogo skyLeft"
-            src={fullstackLogo}
-            alt="logo"
-          />
+          <a href="/coding">
+            <img
+              className="fullstackLogo skyLeft"
+              src={fullstackLogo}
+              alt="logo"
+            />
+          </a>
         </div>
         <div>
-          <img className="designLogo skyLeft" src={designLogo2} alt="logo" />
+          <a href="/notFound">
+            <img className="designLogo skyLeft" src={designLogo2} alt="logo" />
+          </a>
         </div>
         <div>
           <div className="firstBlock skyLeft">

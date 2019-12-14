@@ -49,7 +49,9 @@ const Homepage = () => {
 
       <div className="content-center">
         <div>
-          <img className="eatwithme" src={Eatwithme} alt="logo" />
+          <a href="https://eatwithme-react.herokuapp.com">
+            <img className="eatwithme" src={Eatwithme} alt="logo" />
+          </a>
         </div>
         <div>
           <p className="eatwithmeText">
@@ -65,15 +67,6 @@ const Homepage = () => {
             <li>Booking events</li>
             <li>Check list and details's Restaurants</li>
           </ul>
-          <button className="weatherButton">
-            <a
-              className="linkUrl"
-              target="_blank"
-              href="https://eatwithme-react.herokuapp.com"
-            >
-              LETZ CHECK
-            </a>
-          </button>
         </div>
       </div>
 
