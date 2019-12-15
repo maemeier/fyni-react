@@ -96,7 +96,7 @@ const Homepage = () => {
 
       <div className="content-center">
         <div>
-          <a href="/https://www.fyni.dev/coding">
+          <a href="/coding">
             <img
               className="fullstackLogo skyLeft"
               src={fullstackLogo}
@@ -105,7 +105,7 @@ const Homepage = () => {
           </a>
         </div>
         <div>
-          <a href="https://www.fyni.dev/notFound">
+          <a href="/notFound">
             <img className="designLogo skyLeft" src={designLogo2} alt="logo" />
           </a>
         </div>
