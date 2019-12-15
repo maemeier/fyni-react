@@ -73,12 +73,11 @@ const Homepage = () => {
         </p>
 
         <p className="firstBlock">
-          I have been working as graphic designer for 5 years and have a huge
-          interest in art, coding, technologies and travel. In the past 2 years,
-          I've done work for more than 200 customers in Switzerland and Germany.
-          In 2019, I took a Fullstack Developer bootcamp for 9 weeks and the
-          first time I saw my code run beautifully on screen, I knew it was a
-          love at first sight. --
+          I have been working in a design filed for 5 years and done work for
+          more than 200 customers in Switzerland and Germany. I have a huge
+          interest in art, programing, technologies and travel. In the middle of
+          2019 I joined a fullstack developer bootcamp for 9 weeks and found
+          that coding is fun and very addictive. --
         </p>
         <p className="firstBlock">
           I like to code things from scratch. All of my coding projects are
@@ -97,7 +96,7 @@ const Homepage = () => {
 
       <div className="content-center">
         <div>
-          <a href="/coding">
+          <a href="/https://www.fyni.dev/coding">
             <img
               className="fullstackLogo skyLeft"
               src={fullstackLogo}
@@ -106,7 +105,7 @@ const Homepage = () => {
           </a>
         </div>
         <div>
-          <a href="/notFound">
+          <a href="https://www.fyni.dev/notFound">
             <img className="designLogo skyLeft" src={designLogo2} alt="logo" />
           </a>
         </div>
