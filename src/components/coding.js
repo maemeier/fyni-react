@@ -1,15 +1,12 @@
 import React from "react";
 import Logo1 from "../img/LOGO.svg";
-import Eatwithme from "../img/eatwithme.png";
-
 import Roomers from "../img/roomers.png";
 import Chatzii from "../img/chatzii.png";
-
 import Ipad2 from "../img/ipad2.png";
 import Ipad1 from "../img/ipad1.png";
 import Footer from "./footer";
-
 import Case from "../img/case.png";
+import Header from "./header";
 import { Link } from "react-router-dom";
 import "../coding.css";
 
@@ -19,32 +16,7 @@ const Homepage = () => {
   return (
     <div className="container">
       <Navbar1 />
-      <div className="content-center ">
-        <svg
-          className="svg1"
-          width="1439"
-          height="474"
-          viewBox="0 0 1439 474"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M1439 0H0V474L1439 175.156V0Z" fill="#E8BCBC" />
-          <path d="M1439 0H0V474L1439 175.156V0Z" fill="url(#paint0_linear)" />
-          <defs>
-            <linearGradient
-              id="paint0_linear"
-              x1="719"
-              y1="-104.18"
-              x2="718.787"
-              y2="689"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stop-color="#A26E6E" />
-              <stop offset="1" stop-color="white" stop-opacity="0" />
-            </linearGradient>
-          </defs>
-        </svg>
-      </div>
+      <Header />
 
       <div>
         <img className="logo" src={Logo1} alt="logo" />
@@ -58,7 +30,11 @@ const Homepage = () => {
       <div className="content-center">
         <div>
           <a href="https://eatwithme-react.herokuapp.com">
-            <img className="eatwithme" src={Eatwithme} alt="logo" />
+            <img
+              className="eatwithme"
+              src="https://res.cloudinary.com/fyni/image/upload/v1576902441/eatwithme_blkxeg.png"
+              alt="logo"
+            />
           </a>
         </div>
         <div className="eatwithmeText">
