@@ -1,15 +1,14 @@
 import React from "react";
-import Logo from "../img/LOGO.svg";
 import Logo1 from "../img/LOGO.svg";
 import Eatwithme from "../img/eatwithme.png";
-import ThaiAir from "../img/thaiAir.png";
+
 import Roomers from "../img/roomers.png";
 import Chatzii from "../img/chatzii.png";
-import Iphone from "../img/iphone.png";
+
 import Ipad2 from "../img/ipad2.png";
 import Ipad1 from "../img/ipad1.png";
 import Footer from "./footer";
-import Screen from "../img/screen.png";
+
 import Case from "../img/case.png";
 import { Link } from "react-router-dom";
 import "../coding.css";

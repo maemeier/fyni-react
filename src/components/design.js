@@ -1,7 +1,5 @@
 import React from "react";
-import Logo from "../img/LOGO.svg";
-import NavBar from "../components/navBar";
-import Iphone from "../img/iphoneRoll.png";
+
 import ThaiAir from "../img/thaiAir.png";
 import Skyscanner from "../img/skyscanner.png";
 import Airbnb from "../img/airbnb.png";
