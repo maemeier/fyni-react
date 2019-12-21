@@ -66,7 +66,7 @@ const Homepage = () => {
           </Link>
         </div>
         <div>
-          <Link to="/design">
+          <Link to="/NotFound">
             <img className="designLogo skyLeft" src={designLogo2} alt="logo" />
           </Link>
         </div>
