@@ -109,6 +109,7 @@ div.listLogo {
 h1.banner {
   font-size: 18px;
 }
+
 @media screen and (min-width: 992px) {
   .content-center {
     width: 95vw;
@@ -160,6 +161,7 @@ img.logo1 {
 }
 .firstBlock {
   text-align: justify;
+  font-size: 14px;
 }
 .construction {
   padding-bottom: 70px;

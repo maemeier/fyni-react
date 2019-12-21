@@ -1,50 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../img/LOGO.svg";
-import affinity from "../img/affinity.png";
-import database from "../img/dataBaseLogo.png";
-import css3 from "../img/css3logo.png";
-import jsLogo from "../img/jsLogo.png";
-import reactLogo from "../img/reactLogo.png";
-import html from "../img/htmlLogo.png";
-import fyni from "../img/fyniLogo.png";
 import fullstackLogo from "../img/fullstack.png";
 import designLogo2 from "../img/designLogo2.png";
 import Logo1 from "../img/LOGO.svg";
 import Navbar1 from "./Navbar1";
 import Footer from "./footer";
+import LogoList from "./logoList";
+import Header from "./header";
 import "../homepage.css";
 
 const Homepage = () => {
   return (
     <div className="container">
       <Navbar1 />
-      <div className="content-center">
-        <svg
-          className="svg1"
-          width="1439"
-          height="474"
-          viewBox="0 0 1439 474"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M1439 0H0V474L1439 175.156V0Z" fill="#E8BCBC" />
-          <path d="M1439 0H0V474L1439 175.156V0Z" fill="url(#paint0_linear)" />
-          <defs>
-            <linearGradient
-              id="paint0_linear"
-              x1="719"
-              y1="-104.18"
-              x2="718.787"
-              y2="689"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stop-color="#A26E6E" />
-              <stop offset="1" stop-color="white" stop-opacity="0" />
-            </linearGradient>
-          </defs>
-        </svg>
-      </div>
+      <Header />
 
       <div>
         <img className="logo" src={Logo1} alt="logo" />
@@ -55,15 +24,7 @@ const Homepage = () => {
         <div className="banner"></div>
       </div>
 
-      <div className="listLogo logos">
-        <img className="logo1" src={html} alt="logo" />
-        <img className="logo1" src={jsLogo} alt="logo" />
-        <img className="logo1" src={css3} alt="logo" />
-        <img className="logo1" src={reactLogo} alt="logo" />
-        <img className="logo1" src={database} alt="logo" />
-        <img className="logo1" src={affinity} alt="logo" />
-      </div>
-
+      <LogoList />
       <div className="content-center">
         <p className="firstBlock">
           <strong>
@@ -96,18 +57,18 @@ const Homepage = () => {
 
       <div className="content-center">
         <div>
-          <a href="/coding">
+          <Link to="/coding">
             <img
               className="fullstackLogo skyLeft"
               src={fullstackLogo}
               alt="logo"
             />
-          </a>
+          </Link>
         </div>
         <div>
-          <a href="/notFound">
+          <Link to="/design">
             <img className="designLogo skyLeft" src={designLogo2} alt="logo" />
-          </a>
+          </Link>
         </div>
         <div>
           <div className="firstBlock skyLeft">
@@ -115,11 +76,11 @@ const Homepage = () => {
             <ul>
               <li>HTML & CSS</li>
               <li>React.js</li>
-              <li>UI Semantic</li>
+              <li>Semantic UI</li>
               <li>MongoDb</li>
               <li>Javascript</li>
-              <li>GitTower</li>
-              <li>Affinity Designer und Sketch</li>
+              <li>Git</li>
+              <li>Affinity Designer and Sketch</li>
             </ul>
           </div>
         </div>

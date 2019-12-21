@@ -19,10 +19,23 @@
   .content p {
     width: 100%;
   }
+  img.iphone {
+    width: 650px;
+    height: 650px;
+    margin-left: 30px;
+    align-self: center;
+  }
+  .content-center1 {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    margin: auto;
+  }
 }
 
 .Logo {
-  width: 200px;
+  width: 500px;
   margin-left: 150px;
   margin-top: 30px;
 }
@@ -55,29 +68,30 @@ a.item.right {
   display: block;
 }
 
-.body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 100px;
-}
-.body2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 0px;
-}
-
 .iphone {
-  width: 900;
+  width: 500;
   height: 650px;
-  margin-left: 90px;
   align-self: center;
+}
+.banner h1 {
+  font-size: 1.5rem;
+}
+.banner div {
+  width: 10rem;
+  height: 5px;
+  background: var(--mainGrey);
+  margin: 1rem auto;
+}
+.banner {
+  margin-top: 70px;
 }
 
 .iphoneHeader {
-  padding-top: 110px;
+  padding-top: 170px;
   width: 400px;
   font-size: 28px;
   text-align: center;
+  margin-left: 200px;
 }
 .iphoneText {
   width: 400px;
@@ -86,18 +100,41 @@ a.item.right {
   align-items: center;
   text-align: justify;
 }
-.thaiAir {
-  width: 600px;
+img.thaiAir {
+  width: 800px;
+  margin: auto;
 }
-.thaiAirHeader {
+
+.content-center1 {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+  margin: auto;
+}
+.desinText {
   width: 400px;
-  font-size: 28px;
-  padding-top: 100px;
-  text-align: center;
-  justify-content: center;
-  color: var(--mainGrey);
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 90px;
+  font-weight: bold;
+  font-size: 24px;
 }
-.thaiAirText {
+.mobileText1 {
+  width: 400px;
+  justify-content: center;
+  font-size: 16px;
+  text-align: justify;
+  margin: auto;
+}
+.mobileText2 {
+  width: 400px;
+  justify-content: center;
+  font-size: 24px;
+  text-align: justify;
+  margin: auto;
+}
+p.thaiAirText {
   width: 400px;
   margin-top: 40px;
   justify-content: center;
@@ -108,14 +145,18 @@ a.item.right {
 .mobileHeader {
   text-align: center;
   color: var(--mainGrey);
-  font-size: 28px;
-  margin-top: 40px;
+  font-size: 24px;
+  padding-top: 100px;
+  width: 500px;
+  margin: auto;
 }
 .mobileText {
   text-align: center;
-  width: 750px;
+  padding-top: 16px;
+  width: 500px;
+  text-align: justify;
+  font-size: 16px;
   align-items: center;
-  margin: auto;
 }
 .allApp {
   display: grid;
