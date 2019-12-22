@@ -118,10 +118,6 @@ div.listLogo {
 h1.banner {
   font-size: 18px;
 }
-div.thaiAir {
-  background-image: url("img/thaiAir.png");
-  background-size: cover;
-}
 
 @media screen and (min-width: 992px) {
   .content-center {
