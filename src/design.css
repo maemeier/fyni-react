@@ -117,9 +117,8 @@ img.thaiAir {
 @media only screen and (max-width: 600px) {
   .designText {
     width: 90vw;
-    margin: auto;
+    margin: 0 auto;
     padding-bottom: 20px;
-
     font-weight: bold;
     font-size: 24px;
   }
@@ -131,7 +130,7 @@ img.thaiAir {
     margin: auto;
   }
   img.thaiAir {
-    width: 300px;
+    width: 350px;
     margin: 0 auto;
   }
 }
