@@ -105,13 +105,24 @@ img.thaiAir {
   margin: auto;
 }
 
-.content-center1 {
-  width: 90vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-top: 50px;
-  margin: auto;
+@media only screen and (max-width: 600px) {
+  .designText {
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 20px;
+
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .mobileText1 {
+    width: 90vw;
+    justify-content: center;
+    font-size: 16px;
+    text-align: justify;
+    margin: auto;
+  }
 }
+
 .desinText {
   width: 400px;
   margin: auto;

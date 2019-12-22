@@ -3,16 +3,14 @@ import { Link } from "react-router-dom";
 import fullstackLogo from "../img/fullstack.png";
 import designLogo2 from "../img/designLogo2.png";
 import Logo1 from "../img/LOGO.svg";
-import Navbar1 from "./Navbar1";
 import Footer from "./footer";
-import LogoList from "./logoList";
 import Header from "./header";
+import ThaiAir from "../img/thaiAir.png";
 import "../homepage.css";
 
 const Homepage = () => {
   return (
     <div className="container">
-      <Navbar1 />
       <Header />
 
       <div>
@@ -24,32 +22,24 @@ const Homepage = () => {
         <div className="banner"></div>
       </div>
 
-      <LogoList />
-      <div className="content-center">
-        <p className="firstBlock">
-          <strong>
-            Hello World! Welcome to FYNI.DEV, My name is Mae Kangsadan, Junior
-            Front-end Developer and Graphic Designer --
-          </strong>
-        </p>
-
-        <p className="firstBlock">
-          I have been working in a design filed for 5 years and done work for
-          more than 200 customers in Switzerland and Germany. I have a huge
-          interest in art, programing, technologies and travel. In the middle of
-          2019 I joined a fullstack developer bootcamp for 9 weeks and found
-          that coding is fun and very addictive. --
-        </p>
-        <p className="firstBlock">
-          I like to code things from scratch. All of my coding projects are
-          built with React.js -- including this website. If you are looking for
-          junior front-end developer who loves to use react and capable of
-          spending whole day fixing bugs and play with CSS. Just scroll a little
-          bit down to the end of the page. You will find my contact. Hope to
-          hear from you soon.
-        </p>
+      <div className="content-center1">
+        <div className="thaiAir"></div>
+        <div>
+          <h2 className="designText">
+            Design won't save the world, but it makes you app looks good
+          </h2>
+          <p className="mobileText1">
+            I have been working in a design filed for 5 years and mostly
+            interested in frontend developer, web design. Moreover I also open
+            to learn from any good challenge that comes up which best challenges
+            my intellect, creativity, problem sloving. If you are looking for
+            junior front-end developer who loves to use react and capable of
+            spending whole day fixing bugs. Just scroll a little bit down to the
+            end of the page. You will find my contact. Hope to hear from you
+            soon.--
+          </p>
+        </div>
       </div>
-
       <div className="banner">
         <h1 className="banner"> Projects</h1>
         <div className="banner"></div>
