@@ -10,7 +10,7 @@ const Middle = () => {
       </div>
       <div>
         <h2 className="designText">
-          Hello World! My name is Mae Kangsadan, Web Developer and Graphic
+          &#60; Hello World! My name is Mae Kangsadan, Web Developer and Graphic
           Designer />
         </h2>
         <p className="mobileText1">
