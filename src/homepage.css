@@ -143,6 +143,7 @@ p.mobileP {
   padding-top: 30px;
   padding-bottom: 30px;
   justify-content: center;
+  text-align: justify;
 }
 @media screen and (min-width: 992px) {
   .content-center {
@@ -232,7 +233,24 @@ h2.designText {
     align-self: center;
     margin-top: 30px;
   }
-
+  h2.designTitle {
+    width: 300px;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    justify-content: center;
+    margin: auto;
+  }
+  p.mobileP {
+    margin: auto;
+    width: 300px;
+    font-size: 1rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    text-align: justify;
+  }
   h2.designText {
     font-size: 1.5rem;
     margin: 0 auto;
