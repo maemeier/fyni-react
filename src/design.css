@@ -7,15 +7,6 @@
   grid-column-gap: 50px;
   padding-top: 50px;
 }
-.content-center1 {
-  width: 90vw;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
-  grid-row-gap: 2rem;
-  grid-column-gap: 50px;
-  padding-top: 50px;
-}
 
 @media screen and (min-width: 992px) {
   .content-center {
@@ -33,13 +24,6 @@
     height: 650px;
     margin-left: 30px;
     align-self: center;
-  }
-  .content-center1 {
-    width: 90vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 50px;
-    margin: auto;
   }
 }
 
@@ -124,7 +108,7 @@ img.thaiAir {
     text-align: center;
     font-size: 24px;
   }
-  .mobileText1 {
+  p.mobileText1 {
     width: 90vw;
     justify-content: center;
     font-size: 16px;
@@ -145,13 +129,6 @@ h2.designText {
   font-weight: bold;
   text-align: center;
   font-size: 22px;
-}
-.mobileText1 {
-  width: 400px;
-  justify-content: center;
-  font-size: 1rem;
-  text-align: justify;
-  margin: auto;
 }
 .mobileText2 {
   width: 400px;
@@ -238,6 +215,15 @@ p.thaiAirText {
   font-family: sans-serif;
   text-align: center;
   color: white;
+}
+
+p.mobileText1 {
+  width: 500px;
+  justify-content: center;
+  font-size: 1rem;
+  text-align: justify;
+  align-self: center;
+  margin: auto;
 }
 
 .floating {

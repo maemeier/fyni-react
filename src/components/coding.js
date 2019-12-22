@@ -39,17 +39,17 @@ const Homepage = () => {
         </div>
         <div className="eatwithmeText">
           <p>
-            <strong>Eatwithme </strong>-- Discover the unique social media
-            dining website that set up you to eat with strangers. Create your
-            events and join breakfast or dinner with local people. Because
-            eating together is always more delicious than eating alone!
+            <strong>Eatwithme </strong>-- Discover unique social dining website
+            that will set you up to eat with strangers. Create your event or
+            join the locals for breakfast, lunch or dinner. Because eating
+            together is always more delicious than eating alone!
           </p>
           <ul>
-            <li>Sign up and Login Authentication</li>
-            <li>Create events and upload image to the event</li>
-            <li>Check proflie and booked events</li>
-            <li>Booking events</li>
-            <li>Check list and details's Restaurants</li>
+            <li>Sign up and Login authentication</li>
+            <li>Create event and upload image to the event</li>
+            <li>Check proflie and book event</li>
+            <li>Booking event</li>
+            <li>Check list and details of Restaurants</li>
           </ul>
         </div>
       </div>
@@ -65,8 +65,8 @@ const Homepage = () => {
           </a>
           <h2 className="weatherHeader">JARDIN DE L'AMOUR</h2>
           <p className="text">
-            Online Webshop for preorder wedding bouquets. Jarding de l'amour
-            also offers signature packages for wedding. Built with react, all
+            Jardin de l'amour: online shop for preordering wedding bouquets as
+            well as other signature packages for wedding. Built with react, all
             data stored in localhost. Responsive for desktop, mobile phone and
             tablette.
           </p>
@@ -83,8 +83,8 @@ const Homepage = () => {
           <h2 className="weatherHeader">DICTIONARY</h2>
           <p className="text">
             Dictionary is a single web page for storing color vocabulary. This
-            project was coding test for intership program. The vocabulary can be
-            added, edited and deleted (if you want). -- Built with react.
+            project was a coding test for intership program. The vocabulary can
+            be added, edited and deleted (if you wish). -- Built with react.
           </p>
         </div>
       </div>

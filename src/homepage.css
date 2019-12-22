@@ -103,7 +103,7 @@ div.listLogo {
   grid-column-gap: 50px;
   padding-top: 50px;
 }
-.content-center1 {
+div.content-center1 {
   width: 90vw;
   margin: 0 auto;
   display: grid;
@@ -118,7 +118,32 @@ div.listLogo {
 h1.banner {
   font-size: 18px;
 }
-
+h2.designText {
+  width: 90vw;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 90px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+}
+h2.designTitle {
+  width: 400px;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  justify-content: center;
+  margin: auto;
+}
+p.mobileP {
+  margin: auto;
+  width: 500px;
+  font-size: 1rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
 @media screen and (min-width: 992px) {
   .content-center {
     width: 95vw;
@@ -129,6 +154,27 @@ h1.banner {
 @media screen and (min-width: 1200px) {
   .content p {
     width: 100%;
+  }
+  h2.designText {
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 90px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  div.textLeft {
+    width: 90vw;
+  }
+  p.mobileText1 {
+    width: 400px;
+    justify-content: center;
+    align-self: center;
+    font-size: 2rem;
+    text-align: justify;
+    margin: auto;
   }
 }
 img.logo1 {
@@ -178,6 +224,7 @@ h2.designText {
 .construction {
   padding-bottom: 70px;
 }
+
 @media only screen and (max-width: 600px) {
   img.logo {
     height: 200px;
