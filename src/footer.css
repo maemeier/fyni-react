@@ -1,0 +1,79 @@
+.svg2 {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+div.footer {
+  position: relative;
+  margin-top: 100px;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+div.contackBlock {
+  position: relative;
+  bottom: 10px;
+}
+.svgBlock {
+  bottom: auto;
+}
+
+.contackBlock {
+  top: auto;
+}
+.contact {
+  font-size: 13px;
+  margin-top: 10px;
+}
+div.info {
+  font-size: 10px;
+  bottom: 10;
+}
+div.info2 {
+  display: none;
+}
+
+.logos {
+  animation: fadeInUp ease 7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.skyLeft {
+  animation: fadeInLeft ease 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.skyRight {
+  animation: fadeInRight ease 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
