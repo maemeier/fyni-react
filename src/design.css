@@ -115,13 +115,13 @@ img.thaiAir {
 }
 
 @media only screen and (max-width: 600px) {
-  .designText {
-    width: 80vw;
+  h2.designText {
+    width: 90vw;
     margin: auto;
     padding-bottom: 20px;
-    justify-content: center;
-    text-align: justify;
+    text-align: center;
     font-weight: bold;
+    text-align: center;
     font-size: 24px;
   }
   .mobileText1 {
@@ -137,12 +137,13 @@ img.thaiAir {
   }
 }
 
-.designText {
-  width: 400px;
+h2.designText {
+  width: 90vw;
   margin: auto;
   padding-bottom: 20px;
   padding-top: 90px;
   font-weight: bold;
+  text-align: center;
   font-size: 22px;
 }
 .mobileText1 {

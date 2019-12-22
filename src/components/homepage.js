@@ -19,7 +19,7 @@ const Homepage = () => {
       </div>
 
       <div className="banner">
-        <h1 className="banner"> DESIGN AND CODE</h1>
+        <h1 className="banner"> CODE AND DESIGN</h1>
         <div className="banner"></div>
       </div>
 
