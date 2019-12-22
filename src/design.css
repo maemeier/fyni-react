@@ -119,6 +119,9 @@ img.thaiAir {
     width: 350px;
     margin: 0 auto;
   }
+  .banner {
+    margin-top: 30px;
+  }
 }
 
 h2.designText {
