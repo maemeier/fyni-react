@@ -5,7 +5,8 @@ import designLogo2 from "../img/designLogo2.png";
 import Logo1 from "../img/LOGO.svg";
 import Footer from "./footer";
 import Header from "./header";
-import ThaiAir from "../img/thaiAir.png";
+import Middle from "./middle";
+
 import "../homepage.css";
 
 const Homepage = () => {
@@ -22,24 +23,8 @@ const Homepage = () => {
         <div className="banner"></div>
       </div>
 
-      <div className="content-center1">
-        <div className="thaiAir"></div>
-        <div>
-          <h2 className="designText">
-            Design won't save the world, but it makes you app looks good
-          </h2>
-          <p className="mobileText1">
-            I have been working in a design filed for 5 years and mostly
-            interested in frontend developer, web design. Moreover I also open
-            to learn from any good challenge that comes up which best challenges
-            my intellect, creativity, problem sloving. If you are looking for
-            junior front-end developer who loves to use react and capable of
-            spending whole day fixing bugs. Just scroll a little bit down to the
-            end of the page. You will find my contact. Hope to hear from you
-            soon.--
-          </p>
-        </div>
-      </div>
+      <Middle />
+
       <div className="banner">
         <h1 className="banner"> Projects</h1>
         <div className="banner"></div>
@@ -64,7 +49,7 @@ const Homepage = () => {
           <div className="firstBlock skyLeft">
             <p>The technologies that I always use to build my projects</p>
             <ul>
-              <li>HTML & CSS</li>
+              <li>HTML & CSS, styled components</li>
               <li>React.js</li>
               <li>Semantic UI</li>
               <li>MongoDb</li>
