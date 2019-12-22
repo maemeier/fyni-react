@@ -24,8 +24,8 @@ const Header = () => {
               y2="689"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#A26E6E" />
-              <stop offset="1" stop-color="white" stop-opacity="0" />
+              <stop stopColor="#A26E6E" />
+              <stop offset="1" stopColor="white" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
