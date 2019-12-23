@@ -1,19 +1,16 @@
 import React from "react";
 import LogoList from "./logoList";
 import Logo1 from "../img/LOGO.svg";
-import Navbar1 from "./Navbar1";
-import Header from "./header";
-import "../homepage.css";
+
+import fynista from "../img/fynista.svg";
+import "../header.css";
 
 const Homepage = () => {
   return (
     <div className="container">
-      <Navbar1 />
-      <Header />
+      <img className="fynista1" src={fynista} alt="logo" />
 
-      <div>
-        <img className="logo" src={Logo1} alt="logo" />
-      </div>
+      <img className="logo4" src={Logo1} alt="logo" />
 
       <div className="banner">
         <h1 className="banner"> DESIGN AND CODE</h1>
@@ -24,9 +21,7 @@ const Homepage = () => {
 
       <div className="content-center">
         <h2 className="construction">
-          <strong>UNDERCONSTRACTION </strong>
-          <br />
-          <strong> WILL BE BACK ON 30th DEC</strong>
+          <strong>in progress </strong>
         </h2>
       </div>
 

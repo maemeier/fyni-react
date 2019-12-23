@@ -1,3 +1,5 @@
+* {
+}
 :root {
   --primaryColor: #af9a7d;
   --mainWhite: #fff;
@@ -265,9 +267,8 @@ h2.designText {
   }
 
   .svg1 {
-    width: 400%;
+    width: 100vw;
     height: auto;
-    margin-top: 0px;
   }
   .svg2 {
     width: 100%;
