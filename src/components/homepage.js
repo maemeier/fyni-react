@@ -47,13 +47,14 @@ const Homepage = () => {
         </div>
         <div>
           <div className="firstBlock skyLeft">
-            <p>The technologies that I always use to build my projects</p>
+            <p className="projectText">
+              The technologies that I use to build my projects
+            </p>
             <ul>
-              <li>HTML & CSS, styled components</li>
-              <li>React.js</li>
+              <li>HTML & CSS, Styled components</li>
+              <li>React.js, Javascript</li>
               <li>Semantic UI</li>
               <li>MongoDb</li>
-              <li>Javascript</li>
               <li>Git</li>
               <li>Affinity Designer and Sketch</li>
             </ul>
