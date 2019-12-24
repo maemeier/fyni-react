@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="info">
               <div>
                 {" "}
-                <strong>Mae</strong> Kangsadan
+                <strong>Email: </strong>bovenden31@gmail.com
               </div>
               <div>
                 {" "}
@@ -43,18 +43,6 @@ const Footer = () => {
                 >
                   <strong>Pinterest:</strong> fynista
                 </a>
-              </div>
-            </div>
-            <div className="info2">
-              <div>
-                <strong>Email: </strong>info@fyni.de
-              </div>
-              <div>
-                <strong> Linkdel: </strong>Kangsadan Palioudis
-              </div>
-              <div>
-                {" "}
-                <strong>Instagram: </strong>fynista
               </div>
             </div>
           </div>
