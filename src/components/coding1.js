@@ -5,7 +5,7 @@ import Eatwithme from "../img/eatwithme.png";
 import ThaiAir from "../img/thaiAir.png";
 import Roomers from "../img/roomers.png";
 import Chatzii from "../img/chatzii.png";
-import Iphone from "../img/iphone.png";
+
 import Ipad from "../img/ipad.png";
 import Footer from "./footer";
 import "../coding.css";

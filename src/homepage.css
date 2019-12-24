@@ -2,6 +2,7 @@
   font-family: "San Francisco";
   font-weight: 400;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  color: #373737;
 }
 
 :root {
@@ -86,7 +87,6 @@ img.logo {
   height: 300px;
   width: 250;
   align-self: center;
-
   width: 90vw;
   margin: 0 auto;
   margin-top: 120px;
@@ -125,16 +125,7 @@ div.content-center1 {
 h1.banner {
   font-size: 18px;
 }
-h2.designText {
-  width: 90vw;
-  margin: auto;
-  padding-bottom: 20px;
 
-  padding-top: 90px;
-  font-weight: bold;
-  text-align: center;
-  font-size: 22px;
-}
 h2.designTitle {
   width: 400px;
   font-size: 22px;
@@ -144,7 +135,6 @@ h2.designTitle {
   padding-bottom: 30px;
   justify-content: center;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-
   margin: auto;
 }
 p.mobileP {
@@ -256,7 +246,7 @@ h2.designText {
     width: 300px;
     font-size: 22px;
     font-weight: bold;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 30px;
     justify-content: center;
     margin: auto;
@@ -264,11 +254,11 @@ h2.designText {
   p.mobileP {
     margin: auto;
     width: 300px;
-    font-size: 1rem;
-    padding-top: 30px;
+    font-size: 1.1rem;
+    padding-top: 20px;
     padding-bottom: 30px;
     justify-content: center;
-    text-align: justify;
+    text-align: center;
   }
   h2.designText {
     font-size: 1.5rem;

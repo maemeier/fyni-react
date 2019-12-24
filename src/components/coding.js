@@ -39,10 +39,12 @@ const Homepage = () => {
         </div>
         <div className="eatwithmeText">
           <p>
-            <strong>Eatwithme </strong>-- Discover unique social dining website
-            that will set you up to eat with strangers. Create your event or
-            join the locals for breakfast, lunch or dinner. Because eating
-            together is always more delicious than eating alone!
+            <h2 className="weatherHeader">EATWITHME</h2>
+            <br />
+            Discover unique social dining website that will set you up to eat
+            with strangers. Create your event or join the locals for breakfast,
+            lunch or dinner. Because eating together is always more delicious
+            than eating alone!
           </p>
           <ul>
             <li>Sign up and Login authentication</li>
