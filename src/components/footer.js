@@ -1,4 +1,5 @@
 import React from "react";
+import "../footer.css";
 
 const Footer = () => {
   return (
@@ -23,28 +24,20 @@ const Footer = () => {
         <div className="content-center">
           <div className="contackBlock">
             <p className="contact"> CONTACT</p>
-            <div className="info">
-              <div>
+            <div className="info"></div>
+            <ul className="listFooter">
+              <li className="contactFooter">
+                <strong>Email :</strong> maemeier@live.com
+              </li>
+              <li className="contactFooter">
                 {" "}
-                <strong>Email: </strong>bovenden31@gmail.com
-              </div>
-              <div>
+                <strong>Github : </strong> maemeier
+              </li>
+              <li className="contactFooter">
                 {" "}
-                <a className="footerLink" href="https://www.github/maemeier">
-                  {" "}
-                  <strong>Github:</strong> maemeier
-                </a>
-              </div>
-              <div>
-                {" "}
-                <a
-                  className="footerLink"
-                  href="https://www.pinterest.com/fynista/"
-                >
-                  <strong>Pinterest:</strong> fynista
-                </a>
-              </div>
-            </div>
+                <strong>Linkdin : </strong> Kangsadan Palioudis
+              </li>
+            </ul>
           </div>
         </div>
       </div>

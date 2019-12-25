@@ -21,7 +21,9 @@ div.contackBlock {
 .svgBlock {
   bottom: auto;
 }
-
+div.info {
+  justify-content: center;
+}
 .contackBlock {
   top: auto;
 }
@@ -29,14 +31,44 @@ div.contackBlock {
   font-size: 13px;
   margin-top: 10px;
 }
-div.info {
-  font-size: 10px;
-  bottom: 10;
+.contactFooter {
+  color: white;
+  display: inline-block;
+  justify-content: center;
+  padding-bottom: 80px;
+  font-size: 1.2rem;
 }
-div.info2 {
-  display: none;
+li.contactFooter:nth-child(n + 1)::after {
+  content: "|";
+  margin: 0 20px;
 }
-
+ul.listFooter {
+  text-decoration: none;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .contactFooter {
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  ul.listFooter {
+    text-decoration: none;
+    text-align: center;
+  }
+  li.contactFooter:nth-child(n + 1)::after {
+    content: "";
+    margin: 0 20px;
+  }
+  .svgBlock {
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .logos {
   animation: fadeInUp ease 7s;
   animation-iteration-count: 1;
