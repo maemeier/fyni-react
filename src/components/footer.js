@@ -23,20 +23,8 @@ const Footer = () => {
         </div>
         <div className="content-center">
           <div className="contackBlock">
-            <p className="contact"> CONTACT</p>
-            <div className="info"></div>
             <ul className="listFooter">
-              <li className="contactFooter">
-                <strong>Email :</strong> maemeier@live.com
-              </li>
-              <li className="contactFooter">
-                {" "}
-                <strong>Github : </strong> maemeier
-              </li>
-              <li className="contactFooter">
-                {" "}
-                <strong>Linkdin : </strong> Kangsadan Palioudis
-              </li>
+              <li className="contactFooter">copyright &#169; www.fyni.dev</li>
             </ul>
           </div>
         </div>

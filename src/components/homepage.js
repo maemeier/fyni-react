@@ -43,7 +43,7 @@ const Homepage = () => {
         <div>
           <div className="firstBlock skyLeft">
             <p className="projectText">
-              The technologies that I use to build my projects
+              Technologies that I use to build my projects
             </p>
             <ul>
               <li>HTML & CSS, Styled components</li>

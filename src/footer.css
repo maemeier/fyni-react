@@ -9,7 +9,7 @@
 
 div.footer {
   position: relative;
-  margin-top: 100px;
+  margin-top: 150px;
   left: 0;
   bottom: 0;
   z-index: -1;
@@ -58,16 +58,17 @@ ul.listFooter {
     text-decoration: none;
     text-align: center;
   }
-  li.contactFooter:nth-child(n + 1)::after {
-    content: "";
-    margin: 0 20px;
-  }
+
   .svgBlock {
     bottom: 0;
     z-index: -1;
     width: 100%;
-
     margin: 0 auto;
+  }
+  div.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 }
 .logos {
