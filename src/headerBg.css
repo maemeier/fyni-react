@@ -10,7 +10,7 @@
 
   width: 100%;
   height: 500px;
-  background: linear-gradient(19deg, var(--primaryColor), var(--mainBlack));
+  background: linear-gradient(200deg, var(--lightPink), var(--darkPink));
   transform-origin: 0px 0px;
   transform: skewY(-10deg);
   overflow: hidden;
