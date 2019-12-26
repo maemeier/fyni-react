@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import fullstackLogo from "../img/fullstack.png";
 import designLogo2 from "../img/designLogo2.png";
-import Logo1 from "../img/LOGO.svg";
 import Footer from "./footer";
-import Header from "./header";
+import Header from "./headerNonSvg";
+import NavBar from "./Navbar1";
 import Middle from "./middle";
 
 import "../homepage.css";
@@ -12,12 +12,9 @@ import "../homepage.css";
 const Homepage = () => {
   return (
     <div className="container">
+      <NavBar />
       <Header />
-
-      <div>
-        <img className="logo" src={Logo1} alt="logo" />
-      </div>
-
+      <div className="centerLogo"></div>
       <div className="banner">
         <h1 className="banner"> CODE AND DESIGN</h1>
         <div className="banner"></div>

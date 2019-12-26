@@ -6,7 +6,7 @@ import Ipad2 from "../img/ipad2.png";
 import Ipad1 from "../img/ipad1.png";
 import Footer from "./footer";
 import Case from "../img/case.png";
-import Header from "./header";
+import Header from "./headerNonSvg";
 import { Link } from "react-router-dom";
 import "../coding.css";
 

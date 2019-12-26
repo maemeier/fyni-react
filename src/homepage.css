@@ -51,7 +51,7 @@ h2 {
   margin: 0 auto;
 }
 .banner {
-  margin-top: 70px;
+  margin-top: 30px;
 }
 .svg2 {
   position: absolute;
@@ -84,14 +84,16 @@ h2 {
 }
 
 img.logo {
-  height: 300px;
-  width: 250;
-  align-self: center;
+  height: 350px;
   width: 90vw;
+  z-index: 1;
+  position: absolute;
   margin: 0 auto;
-  margin-top: 120px;
-  vertical-align: middle;
-  display: block;
+  left: 0;
+  right: 0;
+  top: 200px;
+}
+div.centerLogo {
 }
 
 div.listLogo {
@@ -240,7 +242,8 @@ h2.designText {
     height: 200px;
     width: 350px;
     align-self: center;
-    margin-top: 30px;
+    position: absolute;
+    top: 70px;
   }
 
   h2.designTitle {
