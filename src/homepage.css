@@ -16,6 +16,8 @@
   --brown: #9d806c;
   --lightPink: #f6d8d8;
   --darkPink: #c9a3a3;
+  --lightBlack: #414141;
+  --mainBlack: #1b1b1b;
   --font: #373737;
   --pink: linear-gradient(
     90deg,
@@ -285,7 +287,6 @@ h2.designText {
   }
   .svg2 {
     width: 100%;
-    height: auto;
   }
   .listLogo {
     display: grid;

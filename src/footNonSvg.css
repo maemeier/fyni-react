@@ -1,0 +1,14 @@
+.footerBg {
+  position: relative;
+  height: 60vh;
+  display: block;
+}
+.footerBg-background {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(200deg, var(--lightBlack), var(--mainBlack));
+  transform: skewY(10deg);
+  z-index: -1;
+}

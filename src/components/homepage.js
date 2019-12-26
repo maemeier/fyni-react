@@ -38,9 +38,7 @@ const Homepage = () => {
           </Link>
         </div>
         <div>
-          <Link to="/NotFound">
-            <img className="designLogo skyLeft" src={designLogo2} alt="logo" />
-          </Link>
+          <img className="designLogo skyLeft" src={designLogo2} alt="logo" />
         </div>
         <div>
           <div className="firstBlock skyLeft">

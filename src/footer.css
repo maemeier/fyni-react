@@ -66,6 +66,7 @@ ul.listFooter {
     bottom: 0;
     z-index: -1;
     width: 100%;
+
     margin: 0 auto;
   }
 }
