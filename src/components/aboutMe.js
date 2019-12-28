@@ -16,6 +16,14 @@ const AboutMe = () => {
         <h1 className="banner"> About Me</h1>
         <div className="banner"></div>
       </div>
+      <div>
+        <p className="aboutMeText">
+          Hi again! I am passionate about building unique websites and make them
+          live on browser .If you like my profile and looking for frontend
+          developer, don't hesitage to contact me. <br /> <br />{" "}
+          <strong>Email: info@fyni.de</strong>
+        </p>
+      </div>
       <div className="aboutMeBox">
         <img className="aboutMe skyLeft" src={aboutMae} alt="logo" />
         <img className="aboutMe skyLeft" src={skills} alt="logo" />

@@ -5,6 +5,12 @@ img.aboutMe {
 div.aboutMeBox {
   margin: 0 auto;
 }
+p.aboutMeText {
+  width: 50vw;
+  font-size: 1.2rem;
+  margin: auto;
+  padding-top: 20px;
+}
 @media only screen and (max-width: 600px) {
   img.aboutMe {
     width: 350px;
@@ -13,5 +19,9 @@ div.aboutMeBox {
   div.aboutMeBox {
     width: 95vw;
     margin: 0 auto;
+  }
+  p.aboutMeText {
+    width: 80vw;
+    margin: auto;
   }
 }

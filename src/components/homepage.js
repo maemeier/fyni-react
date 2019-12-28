@@ -38,8 +38,11 @@ const Homepage = () => {
           </Link>
         </div>
         <div>
-          <img className="designLogo skyLeft" src={designLogo2} alt="logo" />
+          <Link to="/aboutMe">
+            <img className="designLogo skyLeft" src={designLogo2} alt="logo" />
+          </Link>
         </div>
+
         <div>
           <div className="firstBlock skyLeft">
             <p className="projectText">
