@@ -4,6 +4,7 @@ img.aboutMe {
 }
 div.aboutMeBox {
   margin: 0 auto;
+  width: 90vw;
 }
 p.aboutMeText {
   width: 50vw;
@@ -23,5 +24,49 @@ p.aboutMeText {
   p.aboutMeText {
     width: 85vw;
     margin: auto;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-device-width: 1000px) {
+  img.aboutMe {
+    width: 100%;
+    margin: 0 auto;
+  }
+  div.aboutMeBox {
+    width: 95vw;
+    margin: 0 auto;
+  }
+  p.aboutMeText {
+    width: 90vw;
+    margin: auto;
+    font-size: 1.3rem;
+  }
+  div.header {
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-device-width: 1150px) {
+  img.aboutMe {
+    width: 100%;
+    margin: 0 auto;
+  }
+  div.aboutMeBox {
+    width: 95vw;
+    margin: 0 auto;
+  }
+  p.aboutMeText {
+    width: 80vw;
+    margin: auto;
+    font-size: 2rem;
+  }
+  div.header {
+    height: 600px;
+  }
+  h1.banner {
+    font-size: 2.5rem;
+  }
+  li.contactFooter {
+    font-size: 2rem;
   }
 }
