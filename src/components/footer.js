@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="content-center">
           <div className="contackBlock">
             <ul className="listFooter">
-              <li className="contactFooter">copyright &#169; www.fyni.dev</li>
+              <li className="contactFooter">code with love ♥️ www.fyni.dev</li>
             </ul>
           </div>
         </div>
