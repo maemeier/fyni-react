@@ -19,7 +19,7 @@ const AboutMe = () => {
       <div>
         <p className="aboutMeText">
           Hi again! I am passionate about building unique websites and make them
-          live on browser .If you like my profile and looking for frontend
+          live on browser. If you like my profile and looking for frontend
           developer, don't hesitage to contact me. <br /> <br />{" "}
           <strong>Email: info@fyni.de</strong>
         </p>
