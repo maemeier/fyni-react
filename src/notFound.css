@@ -1,0 +1,56 @@
+.notFoundBtn {
+  background: var(--lightPink);
+  width: 150px;
+  height: 30px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  border: none;
+  margin: 0 auto;
+
+  cursor: pointer;
+  color: var(--font);
+}
+.notFoundBtn:last-child {
+  margin-bottom: 50px;
+}
+.content {
+  margin: 0 auto;
+  width: 30vw;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+button {
+  height: 40px;
+  width: 150px;
+  background-color: var(--mainBlack);
+  color: var(--lightPink);
+  border: none;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+  border-radius: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+button:first-child {
+  position: relative;
+}
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 1rem;
+    width: 300px;
+    margin: auto;
+  }
+  .content-centerBtn {
+    width: 80vw;
+    padding-bottom: 0px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+}

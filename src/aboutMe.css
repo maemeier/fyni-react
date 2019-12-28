@@ -1,0 +1,17 @@
+img.aboutMe {
+  width: 500px;
+  margin: 0 auto;
+}
+div.aboutMeBox {
+  margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+  img.aboutMe {
+    width: 350px;
+    margin: auto;
+  }
+  div.aboutMeBox {
+    width: 95vw;
+    margin: 0 auto;
+  }
+}
