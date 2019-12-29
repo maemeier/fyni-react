@@ -20,6 +20,8 @@ p.mobileText1 {
   text-align: justify;
   margin: auto;
 }
-
+a:hover {
+  color: black;
+}
 @media screen and (min-width: 1200px) {
 }

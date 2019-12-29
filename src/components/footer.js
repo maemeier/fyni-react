@@ -1,5 +1,10 @@
 import React from "react";
 import "../footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
+
+const icon = <FontAwesomeIcon size="2x" color="var(--white)" icon={faGithub} />;
 
 const Footer = () => {
   return (

@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../navbar.css";
 import { FaAlignRight } from "react-icons/fa";
-class NavBar1 extends Component {
+
+export default class Navbar1 extends Component {
   state = {
     isOpen: false
   };
   handleToggle = () => {
     this.setState({ isOpen: !this.state.isOpen });
   };
-
   render() {
     return (
       <nav className="navbar">
@@ -41,5 +41,3 @@ class NavBar1 extends Component {
     );
   }
 }
-
-export default NavBar1;

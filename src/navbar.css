@@ -1,21 +1,22 @@
 /* Navbar */
 .navbar {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0.75rem 2rem;
 
-  z-index: 1;
+  right: 150;
+  width: 100%;
+  height: auto;
+
+  padding: 0.75rem 2rem;
+  z-index: 4;
 }
 .nav-header {
   display: flex;
-  justify-content: space-between;
 }
 .nav-btn {
   background: transparent;
   border: none;
   cursor: pointer;
+  right: 50;
   outline: none;
 }
 .nav-icon {
@@ -25,7 +26,8 @@
 .nav-links {
   height: 0;
   overflow: hidden;
-  transition: var(--offWhite);
+
+  transition: var(--mainTransition);
   list-style-type: none;
 }
 .nav-links a {
@@ -40,13 +42,31 @@
   letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
-  color: var(--offWhite);
+  color: var(--white);
 }
 
 .show-nav {
-  height: 100px;
+  height: 150px;
+  margin: 0 auto;
 }
-@media screen and (min-width: 768px) {
+ul.nav-links.show-nav {
+  padding: 0;
+}
+@media screen and (max-width: 300px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 1.3rem;
+    margin: 0 auto;
+    z-index: 4;
+  }
+  .nav-header {
+    display: flex;
+    margin: 0 auto;
+  }
   .nav-btn {
     display: none;
   }
@@ -54,11 +74,11 @@
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
+    background: white;
   }
   .nav-links {
     height: auto;
     display: flex;
-    margin-left: 4rem;
   }
   .nav-links a {
     margin: 0 1rem;
