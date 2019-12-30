@@ -1,30 +1,8 @@
-.content-center {
-  width: 90vw;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
-  grid-row-gap: 2rem;
-  grid-column-gap: 50px;
-  padding-top: 50px;
-}
-
-.comingSoon {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: auto;
-  text-align: left;
-}
-
 img.ipad {
   width: 600px;
   margin: auto;
 }
 
-img.iphone {
-  width: 300px;
-  height: 400px;
-  margin: auto;
-}
 .grap {
   height: 60px;
 }
@@ -84,12 +62,7 @@ img.iphone {
 a.item.right {
   margin-left: 10px;
 }
-.svg1 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -1;
-}
+
 .svg2 {
   position: absolute;
   left: 0;
@@ -107,17 +80,6 @@ a.item.right {
   display: block;
 }
 
-.body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: 250px;
-  margin-right: 250px;
-}
-
 .eatwithme {
   width: 650px;
   margin: 0;
@@ -128,10 +90,6 @@ a.item.right {
 }
 .eatText {
   width: 350px;
-}
-
-a.linkUrl {
-  color: white;
 }
 
 .text {
@@ -198,41 +156,6 @@ a.linkUrl {
   left: 0;
   bottom: 0;
   z-index: -1;
-}
-.contackBlock {
-  position: relative;
-  bottom: 70px;
-}
-.footerLink {
-  text-decoration: none;
-  color: white;
-}
-
-.contact {
-  text-decoration: underline;
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: 500;
-  font-weight: bold;
-  color: white;
-}
-
-.info {
-  margin-top: 50px;
-  margin-bottom: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  font-family: sans-serif;
-  text-align: center;
-  color: white;
-}
-.info2 {
-  display: grid;
-  margin-top: 20px;
-  grid-template-columns: 1fr 1fr 1fr;
-  font-family: sans-serif;
-  text-align: center;
-  color: white;
 }
 
 .floating {

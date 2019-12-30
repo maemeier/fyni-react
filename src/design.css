@@ -1,20 +1,18 @@
-.content-center {
-  width: 90vw;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
-  grid-row-gap: 2rem;
-  grid-column-gap: 50px;
-  padding-top: 50px;
-}
-
 @media screen and (min-width: 992px) {
   .content-center {
     width: 95vw;
     max-width: 1170px;
   }
 }
-
+@media screen and (min-width: 700px) {
+  .content-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+  .thaiAir {
+    width: 400px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .content p {
     width: 100%;
@@ -56,12 +54,6 @@
 a.item.right {
   margin-left: 10px;
 }
-.svg1 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -1;
-}
 .svg2 {
   position: absolute;
   left: 0;
@@ -79,11 +71,6 @@ a.item.right {
   display: block;
 }
 
-.iphone {
-  width: 500;
-  height: 650px;
-  align-self: center;
-}
 .banner h1 {
   font-size: 1.5rem;
 }
@@ -104,13 +91,7 @@ a.item.right {
   text-align: center;
   margin-left: 200px;
 }
-.iphoneText {
-  width: 400px;
-  margin-top: 40px;
-  justify-content: center;
-  align-items: center;
-  text-align: justify;
-}
+
 img.thaiAir {
   width: 700px;
   margin: 0 auto;
@@ -215,15 +196,6 @@ p.thaiAirText {
 }
 .footerLink {
   text-decoration: none;
-  color: white;
-}
-
-.contact {
-  text-decoration: underline;
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: 500;
-  font-weight: bold;
   color: white;
 }
 

@@ -1,19 +1,19 @@
 import React from "react";
 import ThaiAir from "../img/thaiAir.png";
-import "../homepage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import "../middle.css";
 
 const icon = <FontAwesomeIcon size="2x" color="var(--white)" icon={faGithub} />;
 
 const Middle = () => {
   return (
-    <div className="content-center1">
-      <div>
+    <div className="content-center">
+      <div className="divThaiAir">
         <img className="thaiAir" src={ThaiAir} alt="logo" />
       </div>
-      <div>
+      <div className="DesignBox">
         <h2 className="designTitle">
           &#60; Hello World! My name is Mae Kangsadan, Web Developer and Graphic
           Designer />

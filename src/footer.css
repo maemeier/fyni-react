@@ -14,19 +14,11 @@ div.footer {
   bottom: 0;
   z-index: -1;
 }
-div.contackBlock {
-  position: relative;
-  bottom: 10px;
-}
-.svgBlock {
-  bottom: auto;
-}
+
 div.info {
   justify-content: center;
 }
-.contackBlock {
-  top: auto;
-}
+
 .contact {
   font-size: 13px;
   margin-top: 10px;
@@ -59,12 +51,6 @@ ul.listFooter {
     text-align: center;
   }
 
-  .svgBlock {
-    bottom: 0;
-    z-index: -1;
-    width: 100%;
-    margin: 0 auto;
-  }
   div.footer {
     position: absolute;
     bottom: 0;
@@ -73,7 +59,7 @@ ul.listFooter {
 }
 .logos {
   animation: fadeInUp ease 7s;
-  animation-iteration-count: 1;
+  sanimation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 @keyframes fadeInAnimation {

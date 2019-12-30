@@ -75,17 +75,6 @@ h2 {
   background: var(--mainGrey);
   margin: 1rem auto;
 }
-.goldfish {
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: 500;
-  font-weight: bold;
-  left: 50%;
-  margin-bottom: 40px;
-  margin-top: 0px;
-  -webkit-text-decoration: slateblue solid 3px underline;
-  text-decoration: slateblue solid underline;
-}
 
 img.logo {
   height: 350px;
@@ -96,8 +85,6 @@ img.logo {
   left: 0;
   right: 0;
   top: 200px;
-}
-div.centerLogo {
 }
 
 div.listLogo {
@@ -123,8 +110,7 @@ div.listLogo {
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
   grid-row-gap: 2rem;
   grid-column-gap: 50px;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding-top: 50px;
 }
 .banner {
   margin-top: 30px;
@@ -238,9 +224,6 @@ h2.designText {
   text-align: justify;
   font-size: 14px;
 }
-.construction {
-  padding-bottom: 70px;
-}
 
 @media only screen and (max-width: 600px) {
   img.logo {
@@ -282,10 +265,6 @@ h2.designText {
     margin: auto;
   }
 
-  .svg1 {
-    width: 100vw;
-    height: auto;
-  }
   .svg2 {
     width: 100%;
   }
@@ -315,28 +294,6 @@ h2.designText {
     left: 0;
     bottom: 0;
     z-index: -1;
-  }
-  div.contackBlock {
-    position: relative;
-    bottom: 10px;
-  }
-  .svgBlock {
-    bottom: auto;
-  }
-
-  .contackBlock {
-    top: auto;
-  }
-  .contact {
-    font-size: 13px;
-    margin-top: 10px;
-  }
-  div.info {
-    font-size: 10px;
-    bottom: 10;
-  }
-  div.info2 {
-    display: none;
   }
 }
 

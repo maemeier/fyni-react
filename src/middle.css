@@ -1,4 +1,4 @@
-.content-center1 {
+.content-center {
   width: 90vw;
   margin: 0 auto;
   display: grid;
@@ -12,7 +12,8 @@ div.thaiAir {
   background-image: url("img/thaiAir.png");
   background-size: cover;
 }
-
+.divThaiAir {
+}
 p.mobileText1 {
   width: 90vw;
   justify-content: center;
@@ -28,5 +29,12 @@ a:hover {
   div.thaiAir {
     background-image: url("img/thaiAir.png");
     background-size: cover;
+  }
+}
+@media screen and (min-width: 700) {
+  div.thaiAir {
+    background-image: url("img/thaiAir.png");
+    background-size: cover;
+    width: 400px;
   }
 }
