@@ -4,7 +4,7 @@ import fullstackLogo from "../img/fullstack.png";
 import designLogo2 from "../img/designLogo2.png";
 import Footer from "./footer";
 import Header from "./headerNonSvg";
-import NavBar from "./Navbar1";
+import NavBar from "./navigation";
 import Middle from "./middle";
 
 import "../homepage.css";

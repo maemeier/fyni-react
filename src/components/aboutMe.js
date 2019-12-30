@@ -4,7 +4,7 @@ import skills from "../img/skill.png";
 import softskills from "../img/softSkill.png";
 import Header from "./headerNonSvg";
 import Footer from "./footer";
-import Navbar from "./Navbar1";
+import Navbar from "./navigation";
 import "../aboutMe.css";
 
 const AboutMe = () => {
