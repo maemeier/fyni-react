@@ -9,7 +9,7 @@ const icon = <FontAwesomeIcon size="2x" color="var(--white)" icon={faGithub} />;
 
 const Middle = () => {
   return (
-    <div className="content-center">
+    <div className="content-center1">
       <div className="divThaiAir">
         <img className="thaiAir" src={ThaiAir} alt="logo" />
       </div>
